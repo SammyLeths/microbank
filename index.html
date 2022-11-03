@@ -30,7 +30,7 @@
   <body>
     <!-- TOP NAVIGATION -->
     <div
-      class="d-flex justify-content-center align-items-center vh-100 app-container container-fluid"
+      class="d-flex justify-content-center align-items-center app-container container-fluid vh-100"
     >
       <!-- LOGIN SCREEN -->
       <div class="row w-75 login-screen">
@@ -56,7 +56,6 @@
                       placeholder="user"
                       class="login__input login__input--user w-100"
                     />
-                    <!-- In practice, use type="password" -->
                     <input
                       type="text"
                       placeholder="PIN"
@@ -73,7 +72,7 @@
             </div>
           </div>
           <div class="row text-center mt-5">
-            <div class="col">
+            <div class="col mt-5 mt-md-0">
               <h2>Demo Login Details</h2>
               <p class="lead">Demo 1) Username: sl & Password: 1111</p>
               <p class="lead">Demo 2) Username: as & Password: 2222</p>
@@ -84,7 +83,7 @@
       </div>
 
       <!-- MAIN APP SCREEN  -->
-      <div class="row d-none app-screen p-5">
+      <div class="row d-none app-screen p-3 p-md-5">
         <div class="col">
           <div class="row">
             <div class="col">
@@ -94,7 +93,7 @@
                   src="./assets/img/micro-bank-logo.png"
                   alt="logo"
                 />
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center pt-5">
                   <h2 class="welcome">Welcome back, Sammy</h2>
                   <span class="logout">(Logout)</span>
                 </div>
@@ -135,14 +134,31 @@
                   </div>
 
                   <!-- SUMMARY -->
-                  <div class="summary">
-                    <p class="summary__label">In</p>
-                    <p class="summary__value summary__value--in">0000€</p>
-                    <p class="summary__label">Out</p>
-                    <p class="summary__value summary__value--out">0000€</p>
-                    <p class="summary__label">Interest</p>
-                    <p class="summary__value summary__value--interest">0000€</p>
-                    <button class="btn--sort">&downarrow; SORT</button>
+
+                  <div class="row py-5 py-md-0 pt-md-2">
+                    <div class="col">
+                      <div class="row">
+                        <div class="col summary">
+                          <p class="summary__label">In</p>
+                          <p class="summary__value summary__value--in">0000€</p>
+                        </div>
+                        <div class="col summary">
+                          <p class="summary__label">Out</p>
+                          <p class="summary__value summary__value--out">
+                            0000€
+                          </p>
+                        </div>
+                        <div class="col summary">
+                          <p class="summary__label">Interest</p>
+                          <p class="summary__value summary__value--interest">
+                            0000€
+                          </p>
+                        </div>
+                        <div class="col summary">
+                          <button class="btn--sort">&downarrow; SORT</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="col col-md-4 actions">
@@ -231,6 +247,18 @@
     </div>
 
     <footer>&copy; <span>2022 All rights reserved</span></footer>
+
+    <div class="err-modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2>⚠️ Unable to close account!</h2>
+      <p>
+        You cannot close an account you are not signed into. To close an
+        account, input the username and password of the account you are
+        currently signed into.
+      </p>
+    </div>
+
+    <div class="err-overlay hidden"></div>
 
     <script src="script.js"></script>
   </body>
