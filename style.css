@@ -415,4 +415,9 @@ footer {
   .logout {
     font-size: 1.5rem;
   }
+
+  .err-modal {
+    width: 85%;
+    padding: 4rem;
+  }
 }
