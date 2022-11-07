@@ -1,242 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="./assets/img/micro-bank-icon.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Micro Bank</title>
-  </head>
-  <body>
-    <!-- TOP NAVIGATION -->
-    <div
-      class="d-flex justify-content-center align-items-center app-container container vh-100"
-    >
-      <!-- LOGIN SCREEN -->
-      <div class="row w-75 login-screen">
-        <div class="col">
-          <div class="row">
-            <div class="col">
-              <img
-                class="logo mx-auto d-block mb-5"
-                src="./assets/img/micro-bank-logo.png"
-                alt="logo"
-              />
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="./assets/img/micro-bank-icon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Micro Bank</title>
+</head>
+
+<body>
+  <!-- TOP NAVIGATION -->
+  <div class="d-flex justify-content-center align-items-center app-container container vh-100">
+    <!-- LOGIN SCREEN -->
+    <div class="row w-75 login-screen">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <img class="logo mx-auto d-block mb-5" src="./assets/img/micro-bank-logo.png" alt="logo" />
           </div>
-          <div class="row w-75 mx-auto login-box">
-            <div class="col lg-left"></div>
-            <div class="col lg-right p-5">
-              <div class="row h-100">
-                <div class="m-auto">
-                  <h2 class="text-white mb-5">Log in to get started</h2>
-                  <form class="login flex-column">
-                    <input
-                      type="text"
-                      placeholder="user"
-                      class="login__input login__input--user w-100"
-                    />
-                    <input
-                      type="text"
-                      placeholder="PIN"
-                      maxlength="4"
-                      class="login__input login__input--pin w-100"
-                    />
-                    <button class="login__btn mb-4">&rarr;</button>
-                  </form>
-                  <a href="#" class="text-white lead create-account"
-                    >Create a FREE Account</a
-                  >
-                </div>
+        </div>
+        <div class="row w-75 mx-auto login-box">
+          <div class="col lg-left"></div>
+          <div class="col lg-right p-5">
+            <div class="row h-100">
+              <div class="m-auto">
+                <h2 class="text-white mb-5">Log in to get started</h2>
+                <form class="login flex-column">
+                  <input type="text" placeholder="user" class="login__input login__input--user w-100" />
+                  <input type="text" placeholder="PIN" maxlength="4" class="login__input login__input--pin w-100" />
+                  <button class="login__btn mb-4">&rarr;</button>
+                </form>
+                <a href="https://sammyleths.github.io/microbank-website/" target="_blank"
+                  class="text-white lead create-account">Create a FREE Account</a>
               </div>
-            </div>
-          </div>
-          <div class="row text-center mt-5">
-            <div class="col mt-5 mt-md-0">
-              <h2>Demo Login Details</h2>
-              <p class="lead">Demo 1) Username: sl & Password: 1111</p>
-              <p class="lead">Demo 2) Username: as & Password: 2222</p>
-              <p class="lead">Demo 3) Username: cm & Password: 3333</p>
             </div>
           </div>
         </div>
+        <div class="row text-center mt-5">
+          <div class="col mt-5 mt-md-0">
+            <h2>Demo Login Details</h2>
+            <p class="lead">Demo 1) Username: sl & Password: 1111</p>
+            <p class="lead">Demo 2) Username: as & Password: 2222</p>
+            <p class="lead">Demo 3) Username: cm & Password: 3333</p>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <!-- MAIN APP SCREEN  -->
-      <div class="row d-none app-screen p-3 p-md-5">
-        <div class="col">
-          <div class="row">
-            <div class="col">
-              <div class="d-flex flex-column mb-2">
-                <img
-                  class="logo mx-auto d-block mb-2"
-                  src="./assets/img/micro-bank-logo.png"
-                  alt="logo"
-                />
-                <div class="d-flex justify-content-center pt-5">
-                  <h2 class="welcome">Welcome back, Sammy</h2>
-                  <span class="logout">(Logout)</span>
-                </div>
+    <!-- MAIN APP SCREEN  -->
+    <div class="row d-none app-screen p-3 p-md-5">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex flex-column mb-2">
+              <img class="logo mx-auto d-block mb-2" src="./assets/img/micro-bank-logo.png" alt="logo" />
+              <div class="d-flex justify-content-center pt-5">
+                <h2 class="welcome">Welcome back, Sammy</h2>
+                <span class="logout">(Logout)</span>
               </div>
-              <div class="d-flex justify-content-between">
-                <div>
-                  <p class="balance__label">Current balance</p>
-                  <p class="balance__date">
-                    As of <span class="date">05/03/2037</span>
-                  </p>
-                </div>
-                <div>
-                  <p class="balance__value">0000€</p>
-                </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="balance__label">Current balance</p>
+                <p class="balance__date">
+                  As of <span class="date">05/03/2037</span>
+                </p>
+              </div>
+              <div>
+                <p class="balance__value">0000€</p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col col-sm-12 col-md-8 movements-table">
-                  <!-- MOVEMENTS -->
-                  <div class="movements">
-                    <div class="movements__row">
-                      <div class="movements__type movements__type--deposit">
-                        2 deposit
-                      </div>
-                      <div class="movements__date">3 days ago</div>
-                      <div class="movements__value">4 000€</div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col col-sm-12 col-md-8 movements-table">
+                <!-- MOVEMENTS -->
+                <div class="movements">
+                  <div class="movements__row">
+                    <div class="movements__type movements__type--deposit">
+                      2 deposit
                     </div>
-                    <div class="movements__row">
-                      <div class="movements__type movements__type--withdrawal">
-                        1 withdrawal
-                      </div>
-                      <div class="movements__date">24/01/2037</div>
-                      <div class="movements__value">-378€</div>
-                    </div>
+                    <div class="movements__date">3 days ago</div>
+                    <div class="movements__value">4 000€</div>
                   </div>
+                  <div class="movements__row">
+                    <div class="movements__type movements__type--withdrawal">
+                      1 withdrawal
+                    </div>
+                    <div class="movements__date">24/01/2037</div>
+                    <div class="movements__value">-378€</div>
+                  </div>
+                </div>
 
-                  <!-- SUMMARY -->
-
-                  <div class="row py-5 py-md-0 pt-md-4">
-                    <div class="col">
-                      <div class="row">
-                        <div class="col summary">
-                          <p class="summary__label">In</p>
-                          <p class="summary__value summary__value--in">0000€</p>
-                        </div>
-                        <div class="col summary">
-                          <p class="summary__label">Out</p>
-                          <p class="summary__value summary__value--out">
-                            0000€
-                          </p>
-                        </div>
-                        <div class="col summary">
-                          <p class="summary__label">Interest</p>
-                          <p class="summary__value summary__value--interest">
-                            0000€
-                          </p>
-                        </div>
-                        <div class="col summary pt-1 pt-md-2">
-                          <button class="btn--sort">&downarrow; SORT</button>
-                        </div>
+                <!-- SUMMARY -->
+                <div class="row py-5 py-md-0 pt-md-4">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col summary">
+                        <p class="summary__label">In</p>
+                        <p class="summary__value summary__value--in">0000€</p>
+                      </div>
+                      <div class="col summary">
+                        <p class="summary__label">Out</p>
+                        <p class="summary__value summary__value--out">
+                          0000€
+                        </p>
+                      </div>
+                      <div class="col summary">
+                        <p class="summary__label">Interest</p>
+                        <p class="summary__value summary__value--interest">
+                          0000€
+                        </p>
+                      </div>
+                      <div class="col summary pt-1 pt-md-2">
+                        <button class="btn--sort">&downarrow; SORT</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col col-sm-12 col-md-4 actions">
-                  <div class="row mb-4">
-                    <div class="col">
-                      <!-- OPERATION: TRANSFERS -->
-                      <div class="operation operation--transfer">
-                        <h2>Transfer money</h2>
-                        <form class="form form--transfer">
-                          <input
-                            type="text"
-                            class="form__input form__input--to"
-                          />
-                          <input
-                            type="number"
-                            class="form__input form__input--amount"
-                          />
-                          <button class="form__btn form__btn--transfer">
-                            &rarr;
-                          </button>
-                          <label class="form__label">Transfer to</label>
-                          <label class="form__label">Amount</label>
-                        </form>
-                      </div>
+              </div>
+              <div class="col col-sm-12 col-md-4 actions">
+                <div class="row mb-4">
+                  <div class="col">
+                    <!-- OPERATION: TRANSFERS -->
+                    <div class="operation operation--transfer">
+                      <h2>Transfer money</h2>
+                      <form class="form form--transfer">
+                        <input type="text" class="form__input form__input--to" />
+                        <input type="number" class="form__input form__input--amount" />
+                        <button class="form__btn form__btn--transfer">
+                          &rarr;
+                        </button>
+                        <label class="form__label">Transfer to</label>
+                        <label class="form__label">Amount</label>
+                      </form>
                     </div>
                   </div>
-                  <div class="row mb-4">
-                    <div class="col">
-                      <!-- OPERATION: LOAN -->
-                      <div class="operation operation--loan">
-                        <h2>Request loan</h2>
-                        <form class="form form--loan">
-                          <input
-                            type="number"
-                            class="form__input form__input--loan-amount"
-                          />
-                          <button class="form__btn form__btn--loan">
-                            &rarr;
-                          </button>
-                          <label class="form__label form__label--loan"
-                            >Amount</label
-                          >
-                        </form>
-                      </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="col">
+                    <!-- OPERATION: LOAN -->
+                    <div class="operation operation--loan">
+                      <h2>Request loan</h2>
+                      <form class="form form--loan">
+                        <input type="number" class="form__input form__input--loan-amount" />
+                        <button class="form__btn form__btn--loan">
+                          &rarr;
+                        </button>
+                        <label class="form__label form__label--loan">Amount</label>
+                      </form>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <!-- OPERATION: CLOSE -->
-                      <div class="operation operation--close">
-                        <h2>Close account</h2>
-                        <form class="form form--close">
-                          <input
-                            type="text"
-                            class="form__input form__input--user"
-                          />
-                          <input
-                            type="password"
-                            maxlength="6"
-                            class="form__input form__input--pin"
-                          />
-                          <button class="form__btn form__btn--close">
-                            &rarr;
-                          </button>
-                          <label class="form__label">Confirm user</label>
-                          <label class="form__label">Confirm PIN</label>
-                        </form>
-                      </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <!-- OPERATION: CLOSE -->
+                    <div class="operation operation--close">
+                      <h2>Close account</h2>
+                      <form class="form form--close">
+                        <input type="text" class="form__input form__input--user" />
+                        <input type="password" maxlength="6" class="form__input form__input--pin" />
+                        <button class="form__btn form__btn--close">
+                          &rarr;
+                        </button>
+                        <label class="form__label">Confirm user</label>
+                        <label class="form__label">Confirm PIN</label>
+                      </form>
                     </div>
                   </div>
-                  <div class="row pt-3">
-                    <div class="col">
-                      <!-- LOGOUT TIMER -->
-                      <p class="logout-timer">
-                        You will be logged out in
-                        <span class="timer">05:00</span>
-                      </p>
-                    </div>
+                </div>
+                <div class="row pt-3">
+                  <div class="col">
+                    <!-- LOGOUT TIMER -->
+                    <p class="logout-timer">
+                      You will be logged out in
+                      <span class="timer">05:00</span>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -245,21 +194,23 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <footer>&copy; <span>2022 All rights reserved</span></footer>
+  <footer>&copy; <span>2022 All rights reserved</span></footer>
 
-    <div class="err-modal hidden">
-      <button class="close-modal">&times;</button>
-      <h2>⚠️ Unable to close account!</h2>
-      <p>
-        You cannot close an account you are not signed into. To close an
-        account, input the username and password of the account you are
-        currently signed into.
-      </p>
-    </div>
+  <div class="err-modal hidden">
+    <button class="close-modal">&times;</button>
+    <h2>⚠️ Unable to close account!</h2>
+    <p>
+      You cannot close an account you are not signed into. To close an
+      account, input the username and password of the account you are
+      currently signed into.
+    </p>
+  </div>
 
-    <div class="err-overlay hidden"></div>
+  <div class="err-overlay hidden"></div>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
