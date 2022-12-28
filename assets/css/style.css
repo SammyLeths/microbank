@@ -32,7 +32,7 @@ nav {
 }
 
 .lg-left {
-  background-image: url('./assets/img//lg-screen.jpg');
+  background-image: url('../img/lg-screen.jpg');
   background-position: center;
   background-size: cover;
   border-top-left-radius: 2em;
@@ -319,10 +319,18 @@ h2 {
 
 footer {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 20px;
   background-color: #4c4b63;
   color: #fff;
+}
+
+footer a {
+  color: #f3f3f3;
+}
+
+footer a:hover {
+  color: #7b86e4;
 }
 
 .create-account:hover {
@@ -376,9 +384,12 @@ footer {
   z-index: 5;
 }
 
+.app-container {
+  min-height: 100vh;
+}
+
 @media screen and (max-width: 768px) {
   .app-container {
-    /*height: auto !important;*/
     padding: 30px 0px;
     width: 100% !important;
   }
@@ -397,6 +408,14 @@ footer {
 
   .movements__row {
     padding: 2.25rem 2rem;
+  }
+
+  .operation {
+    padding: 3rem 2rem;
+  }
+
+  .form__label {
+    font-size: 1rem;
   }
 
   .balance__label {

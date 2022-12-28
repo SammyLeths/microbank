@@ -1,7 +1,6 @@
 'use strict';
 
 // USER DATA! Contains movement dates, currency and locale
-
 let accounts = [];
 const userAccounts = JSON.parse(localStorage.getItem('userData'));
 
@@ -268,7 +267,6 @@ btnLogin.addEventListener('click', function (e) {
     }`;
     appScreen.classList.remove('d-none');
     loginScreen.classList.add('d-none');
-    containerApp.classList.remove('vh-100');
 
     // Create current date and time
     const now = new Date();
