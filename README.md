@@ -1,6 +1,6 @@
 <h1>Microbank</h1>
 
-Microbank is a simple web app that exemplifies micro features of a modern banking application. The web app features a responsive design, login screen with basic authentication, a dashboard screen with minimal transactional functionalities. Some of the features shipped wit this version of Microbank include:
+Microbank is a simple web app that exemplifies micro features of a modern banking application. The web app features a responsive design, login screen with basic authentication, a dashboard screen with minimal transactional functionalities. Some of the features shipped with this version of Microbank include:
 
 <ul>
   <li>Login/Logout with authentication</li>
@@ -19,7 +19,14 @@ This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
 
 <h2>Screenshot</h2>
 
-![Artboard 1v2-min](https://user-images.githubusercontent.com/64320618/209820195-74fa8903-8bde-45d8-82ac-dede6dad0dcc.png)
+#The Web App
+
+![Artboard 1v3-min](https://user-images.githubusercontent.com/64320618/209923144-f75e4efa-c0d7-4a99-b045-b73a747e6268.png)
+
+#The Website
+
+![Artboard 1v1-min](https://user-images.githubusercontent.com/64320618/209923260-a75ee292-26b6-473d-be75-e47f3d195061.png)
+
 
 <h2>Links</h2>
 
