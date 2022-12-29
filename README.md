@@ -19,11 +19,11 @@ This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
 
 <h2>Screenshot</h2>
 
-<h4>The Web App</h4>
+<h4>Web App</h4>
 
 ![Artboard 1v3-min](https://user-images.githubusercontent.com/64320618/209923144-f75e4efa-c0d7-4a99-b045-b73a747e6268.png)
 
-<h4>The Website</h4>
+<h4>Website</h4>
 
 ![Artboard 1v1-min](https://user-images.githubusercontent.com/64320618/209923260-a75ee292-26b6-473d-be75-e47f3d195061.png)
 
