@@ -13,7 +13,7 @@ Microbank is a simple web app that exemplifies micro features of a modern bankin
   <li>View and track current balance in real time.</li>
 </ul>
 
-User data are stored using browser local storage, so users can see all their previous transactions, provided thesame browser is used and the data is not wiped from local storage.
+User data are stored using browser local storage, so users can see all their previous transactions, provided the same browser is used and the data is not wiped from local storage.
 
 This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
 
@@ -31,7 +31,8 @@ This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
 <h2>Links</h2>
 
 <ul>
-  <li>Demo: <a href="https://microbank.netlify.app/" target="_blank">https://microbank.netlify.app/</a></li>
+  <li>Web App Demo: <a href="https://microbank.netlify.app/" target="_blank">https://microbank.netlify.app/</a></li>
+  <li><a href="https://github.com/SammyLeths/microbank-website/" target="_blank">Microbank Website</a></li>
 </ul>
 
 <h2>Tech Stack</h2>
@@ -62,7 +63,11 @@ This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
     <ul>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN</a>: Mozilla Developer Network - JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions</li>
       <li><a href="https://www.w3schools.com/js/js_intro.asp" target="_blank">W3SCHOOL</a>: JavaScript Introduction</li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API" target="_blank">Intersection Observer API</a>: Provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport</li>
     </ul>
+  </li>
+  <li>
+    <b><a href="https://getbootstrap.com/" target="_blank">BOOTSTRAP5</a></b>: Powerful, extensible, and feature-packed frontend toolkit.
   </li>
   <li>
     <b><a href="https://mugshotbot.com/" target="_blank">MUGSHOTBOT</a></b>: Automatic beautiful link previews
