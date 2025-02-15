@@ -27,7 +27,6 @@ This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
 
 ![Artboard 1v2-min](https://user-images.githubusercontent.com/64320618/210125186-dcc41868-a6aa-4108-8dfc-0f37a2b02605.png)
 
-
 <h2>Links</h2>
 
 <ul>
@@ -80,4 +79,5 @@ This web app is developed with HTML5, CSS3, Vanilla JavaScript, Bootstrap@5
   <li>Portfolio - <a href="https://sammyleths.com" target="_blank">@SammyLeths</a></li>
   <li>Linkedin - <a href="https://www.linkedin.com/in/eyiowuawi/" target="_blank">@SammyLeths</a></li>
   <li>Twitter - <a href="https://twitter.com/SammyLeths" target="_blank">@SammyLeths</a></li>
+  <li>Buy me a Coffee - <a href="https://buymeacoffee.com/sammyleths" target="_blank">@SammyLeths</a></li>
 </ul>
